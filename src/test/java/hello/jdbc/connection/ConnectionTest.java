@@ -1,14 +1,14 @@
 package hello.jdbc.connection;
 
 import com.zaxxer.hikari.HikariDataSource;
-import com.zaxxer.hikari.util.DriverDataSource;
+
 import lombok.extern.slf4j.Slf4j;
 import org.junit.jupiter.api.Test;
 import org.springframework.jdbc.datasource.DriverManagerDataSource;
 
 import javax.sql.DataSource;
 import java.sql.Connection;
-import java.sql.Driver;
+
 import java.sql.DriverManager;
 import java.sql.SQLException;
 
